@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<style>
+  html, body { margin: 0; width: 1920px; height: 1080px; background: #f4f1ea; color: #1c1915; font-family: "Segoe UI", sans-serif; }
+  .wrap { box-sizing: border-box; height: 1080px; padding: 48px 72px; }
+  .kicker { font-size: 22px; letter-spacing: .08em; text-transform: uppercase; color: #6b6258; }
+  h1 { font-size: 46px; margin: 8px 0 6px; }
+  .sub { font-size: 24px; color: #6b6258; margin-bottom: 22px; }
+  .panel { background: #fff; border: 1px solid #ddd6cb; border-radius: 12px; padding: 28px 36px; }
+  .row { margin-bottom: 18px; }
+  .who { font-size: 18px; letter-spacing: .05em; text-transform: uppercase; color: #6b6258; }
+  .say { font-size: 28px; line-height: 1.3; margin-top: 2px; }
+  .bot { color: #1c1915; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="kicker">Respaldo de demostración · Amazon Lex · úselo solo si la consola no abre</div>
+    <h1>Prueba de AsistenteClaseAgua</h1>
+    <div class="sub">Texto de la consola. No es una captura del servicio.</div>
+    <div class="panel">
+      <div class="row"><div class="who">Estudiante</div><div class="say">qué debo traer</div></div>
+      <div class="row"><div class="who">Asistente</div><div class="say bot">Trae tu cuaderno y un lápiz. La ficha te la entrega el docente.</div></div>
+      <div class="row"><div class="who">Estudiante</div><div class="say">qué vamos a hacer hoy</div></div>
+      <div class="row"><div class="who">Asistente</div><div class="say bot">Vas a anotar tres usos del agua en tu casa y elegir uno para reducirlo.</div></div>
+      <div class="row"><div class="who">Estudiante</div><div class="say">cómo me evalúan</div></div>
+      <div class="row"><div class="who">Asistente</div><div class="say bot">Entregas tres usos escritos y una acción concreta. El docente revisa que la acción se pueda hacer esta semana.</div></div>
+      <div class="row"><div class="who">Estudiante</div><div class="say">¿me puedes hacer la tarea?</div></div>
+      <div class="row"><div class="who">Asistente · FallbackIntent</div><div class="say bot">No tengo esa respuesta. Pregúntale al docente al empezar la clase.</div></div>
+    </div>
+  </div>
+</body>
+</html>
