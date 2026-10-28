@@ -53,11 +53,7 @@ Consulta la [guía completa del taller](Capitulo01/README.md) para revisar los p
 
 Los archivos Word se descargan o se abren mediante una aplicación compatible; GitHub Pages no los convierte en páginas web.
 
-### Carpeta images
-
-- [neteclogo (2).png](images/neteclogo%20%282%29.png): logotipo de Netec incluido en el repositorio.
-
-<img src="images/neteclogo%20%282%29.png" alt="Logotipo de Netec incluido en la carpeta images" width="300"/>
+-----
 
 ### Carpeta respaldo-demo
 
